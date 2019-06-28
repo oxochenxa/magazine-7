@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.clr {
+    clear: both;
+}
+
+body, input, button, option, textarea, label, select, legend, h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    font: 14px/18px Arial, Helvetica, sans-serif;
+    color: #333;
+    outline: none;
+}
+p {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    text-rendering: geometricPrecision;
+}
+input[type=text], input[type=tel], textarea {
+    -webkit-appearance: none;
+}
+.wrapper-tt{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    max-width: 640px;
+    display: block;
+    margin: auto
+}
+[class^="icontt-"], [class*="icontt-"] {
+    background-image:url(../images/iconsocial.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 72px;
+    width: 72px;
+    line-height: 30px;
+    vertical-align: middle;
+    background-size: 72px 256px;
+}
+
+.block-header img{
+    width: 100%;
+    max-width: 640px;
+    display: block;
+    margin: auto
+}
+.container{
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+p{
+    padding: 0 10px;
+    font-family: Arimo;
+    font-size: 17px;
+    line-height: 30px !important;
+}
+
+.background-black p{
+    color: white;
+}
+.outline img {
+    width: 100%;
+}
+.font-bold{
+    font-weight: bold;
+}
+
+.background-black a:link{
+    color: white;
+    -webkit-text-fill-color: white;
+
+}
+.background-white a:link{
+    color: black;
+    -webkit-text-fill-color: black;
+}
+
+.background-white a{
+    color: black;
+}
+.background-black a{
+    color: white;
+}
+.img-fullscreen img{
+    width: 100%;
+}
+.how-richkid .container, .combo-cheapkid .container, .combo-richkid .container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.del-marginbottom{
+    margin-bottom: 0 !important;
+}
+.del-margintop{
+    margin-top: 0 !important;
+}
+.how-richkid img, .combo-cheapkid img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.outline img{
+    margin-top: 0;   
+}
